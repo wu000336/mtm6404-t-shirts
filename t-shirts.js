@@ -9,7 +9,7 @@ const tshirts = [
   { title: "Red T-Shirt", image: "red-t-shirt.jpg", price: 6.99, stock: 3, quantity: 1 },
   { title: "Teal T-Shirt", image: "teal-t-shirt.jpg", price: 7.99, stock: 2, quantity: 1 }
 ];
-
+// Note: The `quantity` property is added to track the selected quantity for each t-shirt.
 function TshirtCard(props) {
   const { tshirt, index, onQuantityChange, onBuy } = props;
 
